@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+    <!-- font  -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="pics/coding1.png" alt="" />
+      </div>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">My Work</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Introduction  -->
+    <section class="intro" id="home">
+      <h1 class="section__title section__title--intro">
+        Hi, I am <strong>Vakho Chitauri</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+      <img
+        src="./pics/khevsuri.jpg"
+        alt="a picture of Vakho Chitauri"
+        class="intro__img"
+      />
+    </section>
+
+    <!-- About me  -->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Who I am</h2>
+      <p class="section__subtitle section__subtitle--about">
+        I am a frontend developer, who loves coding and building things
+      </p>
+
+      <div class="about-me__body">
+        <p>
+          I tried architecture, hated it. I tried philosophy, liked it. Then, I
+          tried coding, I love it.
+        </p>
+      </div>
+      <!-- <img src="pics/vakhtanga1.jpg" alt="vakho chitauri" /> -->
+    </section>
+
+    <!-- My Work  -->
+    <section class="my-work" id="work">
+      <h2 class="section__title">My work</h2>
+      <p class="section__subtitle">
+        <i class="my_work_subtitle">Selection from my projects</i>
+      </p>
+
+      <div class="portfolio">
+        <!-- item 1  -->
+        <a
+          href="https://pomodora-fdf95ifu5.vercel.app/"
+          class="portfolio__item"
+          target="_blank"
+        >
+          <img src="pics/pomodoro.png" alt="pic of pomodoro project"
+          class="portfolio__img"
+        </a>
+
+        <!-- item 2  -->
+        <a
+          href="https://vakhtangaa.github.io/tribute_page/"
+          class="portfolio__item"
+          target="_blank"
+        >
+          <img src="pics/tribute.png" alt="pic of tribute project"
+          class="portfolio__img"
+        </a>
+
+        <!-- item 3 -->
+        <a
+          href="https://vakhtangaa.github.io/random-quote-machine/"
+          class="portfolio__item"
+          target="_blank"
+        >
+          <img src="pics/random.png" alt="pic of random quote machine project"
+          class="portfolio__img"
+        </a>
+        <!-- item 4 -->
+        <a
+          href="https://react-calculator-fxl0b0o70.vercel.app/"
+          class="portfolio__item"
+          target="_blank"
+        >
+          <img src="pics/calculator.png" alt="pic of calculator project"
+          class="portfolio__img"
+        </a>
+        <a
+          href="https://markdown-ochre.vercel.app/"
+          class="portfolio__item"
+          target="_blank"
+        >
+          <img src="pics/markdown.png" alt="pic of markdown project"
+          class="portfolio__img"
+        </a>
+        <a
+          href="https://vakhtangaa.github.io/drum/"
+          class="portfolio__item"
+          target="_blank"
+        >
+          <img src="pics/drum.png" alt="pic of drum project"
+          class="portfolio__img"
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer  -->
+
+    <footer class="footer" id="contact">
+      <a href="mailto:vakhtang.chitauri@gmail.com" class="footer__link"
+        >vakhtang.chitauri@gmail.com</a
+      >
+      <ul class="social-list">
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://twitter.com/ChitauriVakho"
+            ><i class="fab fa-twitter-square"></i>Twitter
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://github.com/vakhtangaA/"
+            ><i class="fab fa-github"></i>Github</a
+          >
+        </li>
+        <li class="social-list__item">
+          <a
+            class="social-list__link"
+            href="https://www.linkedin.com/in/vakhtang-chitauri-66a07a159/"
+            ><i class="fab fa-linkedin"></i> LinkedIn</a
+          >
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
