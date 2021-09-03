@@ -293,8 +293,13 @@ header {
 .static_portfolio {
   margin-top: 2rem;
   display: grid;
+  gap: 2rem;
   justify-items: center;
   grid-template-columns: 1fr 1fr;
+}
+
+.static_portfolio a {
+  margin-top: 3rem;
 }
 
 @media (max-width: 700px) {
@@ -303,20 +308,23 @@ header {
   }
 }
 
+.static_img {
+  width: 400px;
+  height: auto;
+}
+
 @media (min-width: 1130px) {
   .static_portfolio {
     grid-template-columns: repeat(4, 1fr);
-    gap: 1rem;
+    gap: 3rem;
     max-width: 80%;
     margin: 0 auto;
   }
-  .static_item {
-    width: 80%;
-    height: auto;
-  }
+}
 
-  .static_pages {
-    margin-top: 6rem;
-    margin-left: -4.5rem;
+@media (max-width: 900px) {
+  .static_img {
+    width: 300px;
+    height: auto;
   }
 }
