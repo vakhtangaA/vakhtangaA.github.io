@@ -328,3 +328,17 @@ header {
     height: auto;
   }
 }
+
+.about-me__long__description {
+  max-width: 100ch;
+}
+
+.light_blue_bold {
+  color: lightskyblue;
+  font-weight: 600;
+}
+
+.programming__stacks {
+  margin: 0;
+  padding: 0;
+}

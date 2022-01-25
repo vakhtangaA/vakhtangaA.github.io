@@ -1,237 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
-      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
-      crossorigin="anonymous"
-    />
-    <!-- font  -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./css/styles.css" />
-  </head>
-  <body>
-    <header>
-      <div class="logo">
-        <img src="pics/coding1.png" alt="" />
-      </div>
-      <nav class="nav">
-        <ul class="nav__list">
-          <li class="nav__item">
-            <a href="#home" class="nav__link">Home</a>
-          </li>
-          <li class="nav__item">
-            <a href="#about" class="nav__link">About me</a>
-          </li>
-          <li class="nav__item">
-            <a href="#work" class="nav__link">My Work</a>
-          </li>
-          <li class="nav__item">
-            <a href="#contact" class="nav__link">Contact</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
 
-    <!-- Introduction  -->
-    <section class="intro" id="home">
-      <h1 class="section__title section__title--intro">
-        Hi, I am <strong>Vakho Chitauri</strong>
-      </h1>
-      <p class="section__subtitle section__subtitle--intro">front-end dev</p>
-      <img
-        src="./pics/khevsuri.jpg"
-        alt="a picture of Vakho Chitauri"
-        class="intro__img"
-      />
-    </section>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+    integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+  <!-- font  -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
 
-    <!-- About me  -->
-    <section class="about-me" id="about">
-      <h2 class="section__title section__title--about">Who I am</h2>
-      <p class="section__subtitle section__subtitle--about">
-        I am a frontend developer, who loves coding and building things
-      </p>
-
-      <div class="about-me__body">
-        <p>
-          I tried architecture, hated it. I tried philosophy, liked it. Then, I
-          tried coding, I love it.
-        </p>
-      </div>
-      <!-- <img src="pics/vakhtanga1.jpg" alt="vakho chitauri" /> -->
-    </section>
-
-    <!-- My Work  -->
-    <section class="my-work" id="work">
-      <h2 class="section__title">My work</h2>
-      <p class="section__subtitle">
-        <i class="my_work_subtitle">Selection from my projects</i>
-      </p>
-
-      <div class="portfolio">
-        <!-- item 1  -->
-
-        <a
-          href="https://url-shortener-gol.herokuapp.com/"
-          class="portfolio__item"
-          target="_blank"
-        >
-          <img
-            src="pics/url-shortener.png"
-            alt="pic of tribute project"
-            class="portfolio__img"
-          />
-        </a>
-
-        <!-- item 2  -->
-
-        <a
-          href="https://compassionate-volhard-798010.netlify.app/"
-          class="portfolio__item"
-          target="_blank"
-        >
-          <img
-            src="pics/quiz.png"
-            alt="pic of random quiz project"
-            class="portfolio__img"
-          />
-        </a>
-
-        <!-- item 3 -->
-
-        <a
-          href="https://pomodora-fdf95ifu5.vercel.app/"
-          class="portfolio__item"
-          target="_blank"
-        >
-          <img
-            src="pics/pomodoro.png"
-            alt="pic of pomodoro project"
-            class="portfolio__img"
-          />
-        </a>
-        <!-- item 4 -->
-        <a
-          href="https://react-calculator-fxl0b0o70.vercel.app/"
-          class="portfolio__item"
-          target="_blank"
-        >
-          <img
-            src="pics/calculator.png"
-            alt="pic of calculator project"
-            class="portfolio__img"
-          />
-        </a>
-        <a
-          href="https://markdown-ochre.vercel.app/"
-          class="portfolio__item"
-          target="_blank"
-        >
-          <img
-            src="pics/markdown.png"
-            alt="pic of markdown project"
-            class="portfolio__img"
-          />
-        </a>
-        <a href="http://saqme.me/ti-ta" class="portfolio__item" target="_blank">
-          <img
-            src="pics/tic-tac.png"
-            alt="pic of unilab project"
-            class="portfolio__img"
-          />
-        </a>
-      </div>
-      <div class="static_pages">
-        <p class="section__subtitle">
-          <i class="my_work_subtitle">static web pages</i>
-        </p>
-        <div class="static_portfolio">
-          <a
-            href="http://saqme.me/unilab-challange/index.html"
-            class="static_item"
-            target="_blank"
-          >
-            <img
-              src="pics/unilab1.png"
-              alt="pic of unilab project"
-              class="static_img"
-            />
-          </a>
-          <a
-            href="https://rolling-scopes-school.github.io/vakhtangaa-JSFEGE/webdev/"
-            class="static_item"
-            target="_blank"
-          >
-            <img
-              src="pics/epam.png"
-              alt="pic of webdev project"
-              class="static_img"
-            />
-          </a>
-          <a
-            href="http://saqme.me/tribute_page/"
-            class="static_item"
-            target="_blank"
-          >
-            <img
-              src="pics/tribute.png"
-              alt="pic of tribute page project"
-              class="static_img"
-            />
-          </a>
-          <a
-            href="http://saqme.me/pokemon-app/"
-            class="static_item"
-            target="_blank"
-          >
-            <img
-              src="pics/pokemon.png"
-              alt="pic of pokemons project"
-              class="static_img"
-            />
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <!-- Footer  -->
-
-    <footer class="footer" id="contact">
-      <a href="mailto:vakhtang.chitauri@gmail.com" class="footer__link"
-        >vakhtang.chitauri@gmail.com</a
-      >
-      <ul class="social-list">
-        <li class="social-list__item">
-          <a class="social-list__link" href="https://twitter.com/ChitauriVakho"
-            ><i class="fab fa-twitter-square"></i>Twitter
-          </a>
+<body>
+  <header>
+    <div class="logo">
+      <img src="pics/coding1.png" alt="" />
+    </div>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item">
+          <a href="#home" class="nav__link">Home</a>
         </li>
-        <li class="social-list__item">
-          <a class="social-list__link" href="https://github.com/vakhtangaA/"
-            ><i class="fab fa-github"></i>Github</a
-          >
+        <li class="nav__item">
+          <a href="#about" class="nav__link">About me</a>
         </li>
-        <li class="social-list__item">
-          <a
-            class="social-list__link"
-            href="https://www.linkedin.com/in/vakhtang-chitauri-66a07a159/"
-            ><i class="fab fa-linkedin"></i> LinkedIn</a
-          >
+        <li class="nav__item">
+          <a href="#work" class="nav__link">My Work</a>
+        </li>
+        <li class="nav__item">
+          <a href="#contact" class="nav__link">Contact</a>
         </li>
       </ul>
-    </footer>
-  </body>
+    </nav>
+  </header>
+
+  <!-- Introduction  -->
+  <section class="intro" id="home">
+    <h1 class="section__title section__title--intro">
+      Hi, I am <strong>Vakho Chitauri</strong>
+    </h1>
+    <p class="section__subtitle section__subtitle--intro">web developer</p>
+    <img src="./pics/khevsuri.jpg" alt="a picture of Vakho Chitauri" class="intro__img" />
+  </section>
+
+  <!-- About me  -->
+  <section class="about-me" id="about">
+    <h2 class="section__title section__title--about">Who I am</h2>
+    <p class="section__subtitle section__subtitle--about">
+      I'm a web developer who loves working with new technologies and building interesting web
+      projects.
+
+    </p>
+
+    <div class="about-me__body">
+      <article class="about-me__long__description">
+        <p>
+          My journey to coding is a bit different than usual. I tried to learn two professions
+          before
+          programming, architecture and philosophy, I have spent one and two years on them,
+          respectively,
+          later I liked more, but still, it was not a thing, which I wanted to do all my life, so I
+          decided to
+          take an academic year and work at a restaurant to support myself financially and the same
+          time to
+          think about my future.
+        </p>
+
+        <p>
+          I was working there more than a year and then 2020 came, so like many other people I
+          also
+          had
+          plenty of free time and decided to try coding, which later proved, was one of the my
+          best
+          decisions, because I found to learn to program very funny and joyful, it was not like
+          previous
+          experiences with other professions. So I stuck with it and after one year I started to
+          work in
+          <a href="https://redberry.international/" class="light_blue_bold">redberry</a>
+          as a junior web developer.
+        </p>
+
+
+        At this moment I am working with the following stacks:
+        <section class="programming__stacks">
+          <i>backend:</i> <strong>PHP, Laravel</strong>
+          <span>/</span>
+          <i>fronted:</i> <strong>Javascript, React</strong>
+        </section>
+
+        But if your project requires other skills and languages, I would be glad to take up new
+        challenges
+        and learn new interesting stuff.
+
+      </article>
+    </div>
+  </section>
+
+  <!-- My Work  -->
+  <section class="my-work" id="work">
+    <h2 class="section__title">My work</h2>
+    <p class="section__subtitle">
+      <i class="my_work_subtitle">Selection from my projects</i>
+    </p>
+
+    <div class="portfolio">
+      <!-- item 1  -->
+
+      <a href="https://url-shortener-gol.herokuapp.com/" class="portfolio__item" target="_blank">
+        <img src="pics/url-shortener.png" alt="pic of tribute project" class="portfolio__img" />
+      </a>
+
+      <!-- item 2  -->
+
+      <a href="https://compassionate-volhard-798010.netlify.app/" class="portfolio__item"
+        target="_blank">
+        <img src="pics/quiz.png" alt="pic of random quiz project" class="portfolio__img" />
+      </a>
+
+      <a href="https://coronatime.vakho.redberryinternship.ge/en" class="portfolio__item"
+        target="_blank">
+        <img src="pics/cotonatime2.png" alt="pic of coronatime project" class="portfolio__img" />
+      </a>
+      <a href="https://voting-app-j.herokuapp.com/" class="portfolio__item" target="_blank">
+        <img src="pics/voting-app-1.png" alt="pic of voting app project" class="portfolio__img" />
+      </a>
+
+      <!-- item 3 -->
+
+      <a href="https://pomodora-fdf95ifu5.vercel.app/" class="portfolio__item" target="_blank">
+        <img src="pics/pomodoro.png" alt="pic of pomodoro project" class="portfolio__img" />
+      </a>
+      <!-- item 4 -->
+      <a href="https://react-calculator-fxl0b0o70.vercel.app/" class="portfolio__item"
+        target="_blank">
+        <img src="pics/calculator.png" alt="pic of calculator project" class="portfolio__img" />
+      </a>
+
+
+      <!-- test  -->
+      <!-- <a href="https://coronatime.vakho.redberryinternship.ge/en" class="portfolio__item"
+        target="_blank">
+        <img src="pics/cotonatime2.png" alt="pic of unilab project" class="portfolio__img" />
+      </a>
+      <a href="voting-app-j.herokuapp.com/" class="portfolio__item" target="_blank">
+        <img src="pics/voting-app-1.png" alt="pic of unilab project" class="portfolio__img" />
+      </a> -->
+
+    </div>
+    <div class="static_pages">
+      <p class="section__subtitle">
+        <i class="my_work_subtitle">static web pages</i>
+      </p>
+      <div class="static_portfolio">
+        <a href="http://saqme.me/unilab-challange/index.html" class="static_item" target="_blank">
+          <img src="pics/unilab1.png" alt="pic of unilab project" class="static_img" />
+        </a>
+        <a href="https://rolling-scopes-school.github.io/vakhtangaa-JSFEGE/webdev/"
+          class="static_item" target="_blank">
+          <img src="pics/epam.png" alt="pic of webdev project" class="static_img" />
+        </a>
+        <a href="http://saqme.me/tribute_page/" class="static_item" target="_blank">
+          <img src="pics/tribute.png" alt="pic of tribute page project" class="static_img" />
+        </a>
+        <a href="http://saqme.me/pokemon-app/" class="static_item" target="_blank">
+          <img src="pics/pokemon.png" alt="pic of pokemons project" class="static_img" />
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer  -->
+
+  <footer class="footer" id="contact">
+    <a href="mailto:vakhtang.chitauri@gmail.com"
+      class="footer__link">vakhtang.chitauri@gmail.com</a>
+    <ul class="social-list">
+      <li class="social-list__item">
+        <a class="social-list__link" href="https://twitter.com/ChitauriVakho"><i
+            class="fab fa-twitter-square"></i>Twitter
+        </a>
+      </li>
+      <li class="social-list__item">
+        <a class="social-list__link" href="https://github.com/vakhtangaA/"><i
+            class="fab fa-github"></i>Github</a>
+      </li>
+      <li class="social-list__item">
+        <a class="social-list__link"
+          href="https://www.linkedin.com/in/vakhtang-chitauri-a30063207/"><i
+            class="fab fa-linkedin"></i> LinkedIn</a>
+      </li>
+    </ul>
+  </footer>
+</body>
+
 </html>
